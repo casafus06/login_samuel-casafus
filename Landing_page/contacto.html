@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contacto </title>
+    <link rel="shortcut icon" href="fondo jugo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="imagenes/favicon-32x32.png"
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos contacto.css">
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav_logo">
+                <h2 class="nav_title">Contacto</h2>
+            </div>
+            <ul class="nav_link nav_link--menu">
+                <li class="nav_items">
+                    <a href="../Landing_page/index.html" class="nav_links">Inicio</a>
+                </li>
+                <li class="nav_items">
+                    <a href="../Landing_page/Acerca de.html" class="nav_links">Acerca de</a>
+                </li>
+                <li class="nav_items">
+                    <a href="../Landing_page/contacto.html" class="nav_links">Contacto</a>
+                </li>
+                <li class="nav_items">
+                    <a href="../Landing_page/blog.html" class="nav_links">Blog</a>
+                </li>
+
+                <img src="imagenes/close.svg" class="nav_close">
+            </ul>
+            <div class="nav_menu">
+                <img src="imagenes/menu.svg" class="nav_img">
+            </div>
+        </nav>
+        <section class="hero_container container">
+            <h1 class="hero_title">Contáctanos</h1>
+            <p class="hero_paragraph">Aquí en esta sección te podrás comunicar con nosotros para recibir información sobre nosotros o nuestros panes.<p>
+                    
+        </section>
+    </header>
+    <main>
+
+        <section class="mapa container">
+            <h2 class="subtitleh2">Ubicación sede principal</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1825883343427!2d-75.59946139120746!3d6.239649993722561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429a2bac717bd%3A0x3bf30e4a4203a765!2sPanader%C3%ADa%20del%20Pandebono!5e0!3m2!1ses!2sco!4v1728508318206!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+
+        </section>
+
+       
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="imagenes/leftarrow.svg" class="testimony__arrow" id="before">
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Siguenos en <span class="testimony__course">Facebook.</span></h2>
+                        <p class="testimony__review">En nuestro Facebook podrás estar pendiente de cuando hayan promociones o eventos especiales en nuestros locales:@StarBreadcol.</p>
+                    </div>
+ 
+                    <figure class="testimony__picture">
+                        <img src="imagenes/facebook1.svg" class="testimony__img">
+                    </figure>
+                </section>
+ 
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Nuestro <span class="testimony__course">Instagram.</span></h2>
+                        <p class="testimony__review">En Instagram subimos todo nuestro catálogo de productos disponibles: @StarBreadcol.</p>
+                    </div>
+ 
+                    <figure class="testimony__picture">
+                        <img src="imagenes/Instagram_logo_2022.svg.png" class="testimony__img">
+                    </figure>
+                </section>
+ 
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Nuestro <span class="testimony__course">WhatsApp.</span></h2>
+                        <p class="testimony__review">Aqui puedes escribirnos para ver si esta abierto o preguntar si tenemos algun producto en específico o reservar el local para algun evento, telefono: 3140984160.</p>
+                    </div>
+ 
+                    <figure class="testimony__picture">
+                        <img src="imagenes/descargar.png" class="testimony__img">
+                    </figure>
+                </section>
+ 
+                    <section class="testimony__body" data-id="4">
+                        <div class="testimony__texts">
+                            <h2 class="subtitle">Nuestro <span class="testimony__course">twitter.</span></h2>
+                            <p class="testimony__review"> En esta página verás nuestras publicaciones o encuestas sobre otros tipos de productos que les gustaría vender:@StarBreadcol.</p>
+                        </div>
+                        <figure class="testimony__picture">
+                            <img src="imagenes/twitter1.svg" class="testimony__img">
+                        </figure>
+                </section>
+                <img src="imagenes/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer_container container">
+            <nav class="nav--footer">
+                <h2 class="footer_title">StarBread</h2>
+                <ul class="nav_link nav_link--footer">
+                  <li class="nav_items">
+                    <a href="../Landing/index.html" class="nav_links">Inicio</a>
+                  </li>
+                  <li class="nav_items">
+                    <a href="../Landing/acercde.html" class="nav_links">Acerca de</a>
+                  </li>
+                  <li class="nav_items">
+                    <a href="../Landing/contactos.html" class="nav_links">Contacto</a>
+                  </li>
+                  <li class="nav_items">
+                    <a href="../Landing/blog.html" class="nav_links">Blog</a>
+                  </li>
+                </ul>
+              </nav>
+              
+            <form action="php/registro_usuario_be.php" method="POST" class="formulario__login">
+                <h2 class="footer_newsletter">Envianos tu correo</h2>
+                <div class="footer_inputs">
+                  <input type="email" placeholder="Correo Electronico" name="correo" required>
+                  <input type="submit" value="Regístrate" class="footer_submit"/>
+                </div>
+            </form>
+        </section>
+        <section class="footer_copy container">
+            <div class="footer_social">
+                <a href="#" class="footer_icons"><img src="imagenes/facebook1.svg"  class="footer_img"></a>
+                <a href="#" class="footer_icons"><img src="imagenes/twitter1.svg"  class="footer_img"></a>
+                <a href="#" class="footer_icons"><img src="imagenes/youtube1.svg"  class="footer_img"></a>
+            </div>
+            <h3 class="footer_copyright">
+                Derechos reservados &copy; Samuel Casafus
+            </h3>
+        </section>
+    </footer>
+    <script src="js/slider.js"></script>
+    <script src="js/question.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
